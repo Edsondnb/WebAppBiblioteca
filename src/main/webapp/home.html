@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Inicio</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
+	integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" 
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+
+	<nav class="navbar navbar-dark bg-dark">
+		<a href="#" class="navbar-brand">Inicio</a>
+		<div id="user-data-profile">
+			<span class="badge badge-light mr-3" id="user-saldo"></span>
+			<div class="btn-group dropleft">
+				  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    					<span id="ajustes">Ajustes</span>
+				  </button>
+				  <div class="dropdown-menu">
+				  	<a class="dropdown-item" id="mi-perfil-btn">Mi perfil</a>
+				  	<a class="dropdown-item" href="index.html" id="salir-btn">Salir</a>
+				  </div>
+			</div>
+		</div>
+	</nav>
+	<main class="p-4 d-flex justify-content-center">
+		<table class="table">
+			<thead class="thead-dark">
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">Titulo</th>
+					<th scope="col" id="ordenar-genero" data-toggle="tooltip" data-placement="top" title="Ordenar por genero">Genero
+					<span class="fas fa-sort" id="icono-ordenar"></span></th>
+					<th scope="col">Autor</th>
+					<th scope="col">Copias disponibles</th>
+					<th scope="col">Novedad</th>
+					<th scope="col">Precio</th>
+					<th scope="col">Reservar</th>
+				</tr>
+			</thead>
+			<tbody id="libros-tbody">
+			
+			</tbody>
+		</table>
+		
+	</main>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

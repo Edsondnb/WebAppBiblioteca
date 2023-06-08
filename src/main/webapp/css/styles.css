@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+
+.bg-login-image {
+	background-image: url('img/Library.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+
+.sizeDiv{
+	width: 40vw;
+}
+
+#ordenar-genero{
+	cursor: pointer;
+}
+
+#form-container{
+	width: 40vw;
+}
+
+
